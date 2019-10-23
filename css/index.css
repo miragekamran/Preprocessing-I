@@ -139,13 +139,29 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+a {
   font-family: 'Titillium Web' sans-serif;
 }
 header {
+  display: flex;
   margin: 0;
   background-color: #525274;
-  border: 1px solid;
+}
+header .nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  color: white;
+  height: 50px;
+}
+header .nav a {
+  display: flex;
+  height: 20px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Titillium Web' sans-serif;
 }
 header .top-content {
   display: flex;

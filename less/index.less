@@ -60,7 +60,7 @@ html, body {
 
 // font family
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, a {
 	font-family: 'Titillium Web' sans-serif;
 }
 
@@ -68,10 +68,27 @@ h1, h2, h3, h4, h5 {
 
 
 header {
+	display: flex;
 	margin: 0;
 	background-color: @color;
-	border: 1px solid;
 
+	.nav {
+		display: flex;
+		justify-content: flex-end;
+		margin: 20px;
+		
+		color: white;
+		height: 50px;
+
+		a {
+			display: flex;
+			height: 20px;
+			margin: 20px;
+			color: white;
+			text-decoration: none;
+			font-family: 'Titillium Web' sans-serif;
+		}
+	}
 	.top-content {
 		display: flex;
 		align-items: center;

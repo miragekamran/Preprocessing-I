@@ -3,4 +3,47 @@
     height: 10px;
     background-color: #525274;
   }
+
+.class(@border, @width) {
   
+  border-bottom: @border;
+  width: @width;
+}
+
+.h3(@font, @padding, @top, @bottom) {
+  margin-bottom: @bottom;
+  margin-top: @top;
+  font-size: @font;
+  padding: @padding;
+}
+
+.p(@padding,) {
+  
+  padding: @padding;
+}
+
+.bg-color(@color) {
+	
+	background-color: @color;
+
+}
+
+.navigation(@justify, @margin, @color) {
+  display: flex;
+  justify-content: @justify;
+  margin: @margin;
+  color: @color;
+  height: 50px;
+}
+.a(@color) {
+  display: flex;
+  height: 20px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Titillium Web' sans-serif;
+
+  &:hover {
+    opacity: brown;
+  }
+}

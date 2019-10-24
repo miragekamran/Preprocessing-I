@@ -168,6 +168,9 @@ header .nav a {
   text-decoration: none;
   font-family: 'Titillium Web' sans-serif;
 }
+header .nav a:hover {
+  opacity: brown;
+}
 header .top-content {
   display: flex;
   align-items: center;
@@ -182,11 +185,15 @@ header .top-content div h1 {
   font-size: 60px;
   margin: 10px;
   color: white;
+  font-family: 'Titillium', sans-serif;
+  font-stretch: ultra-expanded;
 }
 header .top-content div h2 {
   font-size: 40px;
   margin: 10px;
   color: white;
+  font-family: 'Titillium', sans-serif;
+  font-stretch: ultra-expanded;
 }
 header .top-content .my-pic {
   width: 15%;

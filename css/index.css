@@ -199,6 +199,8 @@ header .top-content .my-pic {
   width: 15%;
 }
 .main {
+  display: flex;
+  justify-content: space-around;
   border: 1px solid;
   margin: 30px;
   padding: 20px;
